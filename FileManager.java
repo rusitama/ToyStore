@@ -2,7 +2,7 @@
 import java.io.*;
 
 public class FileManager {
-    public static String loadFromFile(String filename){
+    public static String readFromFile(String filename){
         File file = new File(filename);
         StringBuilder result = new StringBuilder();
         if (file.exists()){
